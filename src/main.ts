@@ -4,6 +4,9 @@ import App from './App.vue'
 import { createWebHistory, createRouter } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 const routes = [
     { path: '/', component: HelloWorld }
 ];
