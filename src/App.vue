@@ -25,7 +25,7 @@ import { RouterLink, RouterView } from 'vue-router'
               </ul>
           </li>
           <li class="nav-item">
-                <router-link class="nav-link" to="/fleetmanager"><i class="bi bi-airplane-fill"></i> Fleet</router-link>
+                <router-link class="nav-link" to="/airline/fleetmanager"><i class="bi bi-airplane-fill"></i> Fleet</router-link>
           </li>
           <li class="nav-item">
               <router-link class="nav-link" to="/livemap"><i class="bi bi-globe-americas"></i> Live Map</router-link>
@@ -35,8 +35,10 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
   </header>
 
-
-  <RouterView class="container mt-4 flex-fill" />    
+  
+  <div class="container mt-4 flex-fill">
+    <RouterView  />    
+  </div>
 
   <!-- Footer -->
   <footer class="bg-dark text-white mt-auto py-3">
