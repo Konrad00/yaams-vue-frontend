@@ -1,6 +1,6 @@
 # YAAMS - Yet  Another Airline Management System Vue Frontend
 
-This is the Web-Frontend written in Vue for [YAAMS][https://github.com/YAAMSOrg/yaams-server].
+This is the Web-Frontend written in Vue for [YAAMS](https://github.com/YAAMSOrg/yaams-server).
 
 ## Planned features
 TBA
@@ -9,7 +9,7 @@ TBA
 TBA
 
 ## Setting up dev environment
-TBA
+To setup the environment please run `npm install` to initialize the project.
 
 ## Developing
 TBA
