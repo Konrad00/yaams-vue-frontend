@@ -9,7 +9,7 @@ TBA
 TBA
 
 ## Setting up dev environment
-To setup the environment please run `npm install` to initialize the project.
+To setup the environment please run `npm install` to initialize the project. Also we recommend to install the Vue extension into your browser.
 
 ## Developing
 TBA
