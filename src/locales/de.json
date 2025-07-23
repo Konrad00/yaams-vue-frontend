@@ -1,0 +1,25 @@
+{
+    "mainMenu": {
+        "home": "Start",
+        "flights": {
+            "title": "Flüge",
+            "myPireps": "Meine PIREPs",
+            "filePirep": "PIREP einreichen",
+            "reviewFlights": "PIREPs überprüfen"
+        },
+        "fleet": "Flotte",
+        "liveMap": "Live Karte"
+    },
+    "fleetOverview": {
+        "heading": "Flottenübersicht",
+        "introduction": "Hier ist eine Liste aller Flugzeuge und ihrer aktuellen Standorte gemäß ihrem letzten Flug.",
+        "tailNumber": "Registrierung",
+        "type": "Typ",
+        "currentLocation": "Aktueller Standort",
+        "totalLoggedHours": "Insgesamt geflogene Stunden",
+        "currentActiveFleet": "Aktuell aktive Flotte",
+        "actions": "Aktionen",
+        "edit": "Editieren",
+        "delete": "Löschen"
+    }
+}

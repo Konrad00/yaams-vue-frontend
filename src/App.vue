@@ -1,5 +1,8 @@
 <script setup lang="ts">
+import { useI18n } from 'vue-i18n';
 import { RouterLink, RouterView } from 'vue-router'
+
+const { t } = useI18n()
 </script>
 
 <template>
@@ -12,23 +15,23 @@ import { RouterLink, RouterView } from 'vue-router'
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav me auto">
           <li class="nav-item">
-            <RouterLink to="/" class="nav-link">Home</RouterLink>
+            <RouterLink to="/" class="nav-link">{{ t("mainMenu.home")}}</RouterLink>
           </li>
           <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownFlights" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <i class="bi-journal-album"></i> Flights
+                  <i class="bi-journal-album"></i> {{ t('mainMenu.flights.title') }}
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownFlights">
-                <li><router-link class="dropdown-item" to="/flightlist">My PIREPs</router-link></li>
-                <li><router-link class="dropdown-item" to="/flightadd">File a PIREP</router-link></li>
-                <li><router-link class="dropdown-item" to="/flightreviewindex">Review flights</router-link></li> <!-- TODO: check permission '' here -->
+                <li><router-link class="dropdown-item" to="/flightlist">{{ t("mainMenu.flights.myPireps") }}</router-link></li>
+                <li><router-link class="dropdown-item" to="/flightadd">{{ t("mainMenu.flights.filePirep") }}</router-link></li>
+                <li><router-link class="dropdown-item" to="/flightreviewindex">{{ t("mainMenu.flights.reviewFlights") }}</router-link></li> <!-- TODO: check permission '' here -->
               </ul>
           </li>
           <li class="nav-item">
-                <router-link class="nav-link" to="/airline/fleetmanager"><i class="bi bi-airplane-fill"></i> Fleet</router-link>
+                <router-link class="nav-link" to="/airline/fleetmanager"><i class="bi bi-airplane-fill"></i> {{ t('mainMenu.fleet') }}</router-link>
           </li>
           <li class="nav-item">
-              <router-link class="nav-link" to="/livemap"><i class="bi bi-globe-americas"></i> Live Map</router-link>
+              <router-link class="nav-link" to="/livemap"><i class="bi bi-globe-americas"></i> {{ t('mainMenu.liveMap') }}</router-link>
           </li>
         </ul>
       </div>

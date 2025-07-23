@@ -18,6 +18,7 @@ TBA
  - [bootstrap5](https://getbootstrap.com/)
  - [pinia](https://pinia.vuejs.org/)
  - [vue-router](https://router.vuejs.org/)
+ - [vue-i18n](https://vue-i18n.intlify.dev/)
 
 ## Open Source
 This software is open source with a reason: Because we want you to commit to the project!

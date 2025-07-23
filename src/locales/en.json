@@ -1,0 +1,25 @@
+{
+    "mainMenu": {
+        "home": "Home",
+        "flights": {
+            "title": "Flights",
+            "myPireps": "My PIREPs",
+            "filePirep": "File a PIREP",
+            "reviewFlights": "Review Flights"
+        },
+        "fleet": "Fleet",
+        "liveMap": "Live Map"
+    },
+    "fleetOverview": {
+        "heading": "Fleet overview",
+        "introduction": "Here is a list of all aircraft and their current locations according to their last flight.",
+        "tailNumber": "Tail Number",
+        "type": "Type",
+        "currentLocation": "Current Location",
+        "totalLoggedHours": "Total Logged Hours",
+        "currentActiveFleet": "Current Active Fleet",
+        "actions": "Actions",
+        "edit": "Edit",
+        "delete": "Delete"
+    }
+}
